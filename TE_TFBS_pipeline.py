@@ -13,6 +13,25 @@ import sys
 import argparse
 
 ###############################################
+###
+###  This script was originally written by Jiayue (Clara) Jiang
+###
+###  Please cite the original paper if using this script, or any other script developed form this script or workflow.
+###
+###  Original paper to cite: http://dx.doi.org/10.3390/ijms22115625
+###  J.C. Jiang, J.A. Rothnagel & K.R. Upton (2021) Widespread Exaptation of L1 Transposons for Transcription Factor Binding in Breast Cancer, Int. J. Mol. Sci. 22(11), 2625 
+###
+###  This script was developed to run in a linux environment (developed on Ubuntu 16.04 LTS)
+###  Known dependencies (other than listed in import statements above) are:
+###  -- Bedtools 
+###
+###############################################
+
+
+
+
+
+###############################################
 ###This script is used to investigate the regulatory activity of a transposon subfamily in specific diseases or developmental stage.
 ###This script requires input files including a transcription factor binding sites (TFBS) bed file (bed4), a TE bed file (bed6), and the path to the directory where the outputs will be saved to
 ###This script will do the following:
